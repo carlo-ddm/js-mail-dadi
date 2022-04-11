@@ -9,13 +9,11 @@ console.log(userEmail,'Email inserita');
 const authorizedUsersList = authorizedUsers.length;
 console.log(authorizedUsersList);
 
-const result = document.getElementById('result');
+let output ='non sei autorizzato';
 
 for(let i = 0; i < authorizedUsersList; i++){
   if (userEmail === authorizedUsers[i]){
-    output = 'Autoriazzazione';
-  } else {
-    output = 'No Autoriazzazione';
+    output ='sei autorizzato';
   }
 }
 console.log(output);
