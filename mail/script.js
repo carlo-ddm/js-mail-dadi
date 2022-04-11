@@ -17,3 +17,5 @@ for(let i = 0; i < authorizedUsersList; i++){
   }
 }
 console.log(output);
+
+// Stampare a video risultato

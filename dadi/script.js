@@ -19,22 +19,3 @@ if (numberPlayer < numberPc){
 } else {
   result.innerHTML = 'Pareggio';
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
